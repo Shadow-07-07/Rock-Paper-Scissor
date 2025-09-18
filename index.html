@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors game</title>
+    <link rel="stylesheet" href="rps style.css">
+</head>
+<body>
+    <p class="title">Rock Paper Scissors</p>
+    <button onclick="playgame('Rock');" class="btn">
+      <img src="https://supersimple.dev/projects/rock-paper-scissors/images/rock-emoji.png" class="icons">
+    </button> 
+    <button onclick="playgame('Paper');" class="btn">
+      <img src="https://supersimple.dev/projects/rock-paper-scissors/images/paper-emoji.png" class="icons">
+    </button>
+    <button onclick="playgame('Scissors');" class="btn">
+      <img src="https://supersimple.dev/projects/rock-paper-scissors/images/scissors-emoji.png" class="icons">
+    </button>
+    <p class="js-result result"></p>
+    <p class="js-move"></p>
+    <p class="js-score score"></p>
+    <button onclick="
+    score.wins = 0;
+    score.losses = 0;
+    score.ties = 0;
+    localStorage.removeItem('score');
+    updatescore(); 
+    " class="reset" >Reset Score</button>
+    <script src="rps script.js"></script>
+</body>
+</html>
