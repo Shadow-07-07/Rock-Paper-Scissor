@@ -1,0 +1,38 @@
+
+      body{
+        background-color: rgb(25,25,25);
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .title{
+        font-size: 34px;
+        font-weight: bold;
+      }
+      .icons{
+        height: 50px;
+      }
+      button{
+        cursor: pointer;
+      }
+      .btn{
+        background-color: transparent;
+        border: 3px solid white;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin-right: 10px;
+      }
+      .result{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+      .score{
+        margin-top: 60px;
+      }
+      .reset{
+        background-color: white;
+        padding: 8px 15px;
+        border: none;
+        font-size: 15px;
+      }
